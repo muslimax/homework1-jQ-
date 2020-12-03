@@ -1,0 +1,29 @@
+div {
+    height: 100px;
+    margin-bottom: 10px;
+    background: red;
+}
+
+.first {
+    width: 800px;
+    height: 200px;
+}
+
+
+.active {
+    width: 400px;
+    background: yellow !important;
+    color: blue !important;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 30px auto;
+}
+
+.section {
+    width: max-content;
+}
+
