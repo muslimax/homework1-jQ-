@@ -84,7 +84,7 @@ function jQ(params) {
             } else if (typeof newWidth === "string") {
                 this.element[i].style.width = newWidth
             } else  {
-                return this.element[0].clientWidth + "px"
+                return this.element[0].clientWidth
             }
         }
         return this
@@ -96,7 +96,7 @@ function jQ(params) {
             } else if (typeof newHeight === "string") {
                 this.element[i].style.height = newHeight
             } else {
-               return this.element[0].clientHeight + "px"
+               return this.element[0].clientHeight
             }
         }
         return this
